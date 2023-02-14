@@ -1,0 +1,19 @@
+    <p><strong>About Me:</strong>
+            <br> Goal-oriented C.S student with experience in software engineering, software development, and project management.<br>
+            <br>Pursuing Bachelor’s Degree in Computer Science at Florida Atlantic University.</p>
+        </div>
+        <div class= "imagebox">
+          <div class = "img">
+          <img src="./images/Profile_Pic.jpeg">
+          </div>
+        </div>
+        <div class="content">
+            <h3>About:</h3>
+            <p>
+              My hobbies include playing chess, coding, playing guitar, and doing jiu-jitsu<br>
+              I'm currently doing a few projects including frameworks like React, NodeJS, ExpressJS, and .NET<br><br>
+              My favorite project is a flight simulator that will evetually use AI as an air traffic controller.<br>
+              The AI will keep track of weather, traffic, and other factors to make sure the flights are safe and efficient.<br><br>
+              I'm currently working for two companies, one is a software development company and the other is a game development company.<br>
+              I need to work on front-end since it's clearly my weakest skill, but I'm working on it.<br>
+            </p>

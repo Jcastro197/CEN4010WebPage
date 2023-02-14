@@ -4,65 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="jeff.css">
-    <link rel="icon" href="images/owl-sprite.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Jeff-HomePage</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Group 15</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="../HomePage/index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../AnnabellasPage/annabellas.html">Annabella</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sean</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Youmei</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../JeffsPage/jeff.html">Jeff</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Cesaire</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
     <div class="container">
-        <div class="box">
-          <p><strong>About Me:</strong>
-            <br> Goal-oriented C.S student with experience in software engineering, software development, and project management.<br>
-            <br>Pursuing Bachelor’s Degree in Computer Science at Florida Atlantic University.</p>
-        </div>
-        <div class= "imagebox">
-          <div class = "img">
-          <img src="./images/Profile_Pic.jpeg">
-          </div>
-        </div>
-        <div class="content">
-            <h3>About:</h3>
-            <p>
-              My hobbies include playing chess, coding, playing guitar, and doing jiu-jitsu<br>
-              I'm currently doing a few projects including frameworks like React, NodeJS, ExpressJS, and .NET<br><br>
-              My favorite project is a flight simulator that will evetually use AI as an air traffic controller.<br>
-              The AI will keep track of weather, traffic, and other factors to make sure the flights are safe and efficient.<br><br>
-              I'm currently working for two companies, one is a software development company and the other is a game development company.<br>
-              I need to work on front-end since it's clearly my weakest skill, but I'm working on it.<br>
-            </p>
-        </div>
-        <iframe id = "myIframe1"src="/JeffsPage/Jeff-Projects/Watch/index.html" height="350" width="350" scrolling="no"></iframe>
+      <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">Annabelle</a>
+          </li>
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">Youmei</a>
+          </li>
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">Sean</a>
+          </li>
+          <li class="nav-item">
+            <a href="#questions" class="nav-link">Cesaire</a>
+          </li>
+          <li class="nav-item">
+            <a href="#instructors" class="nav-link">Jeff</a>
+          </li>
+        </ul>
       </div>
-      
+    </div>
+  </nav>
+
+  <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <br>
+          <br>
+          <h1><span class="text-warning">Hello World!</span></h1>
+          <h4> <span class="text-light">My name is  </span> <span class="text-primary">Jeffry Castro</span> </h4>
+          <p>
+            I am C.S student with experience in software engineering, software development, and project management
+          </p>
+        </div>
+        <img class= "img-fluid w-50 d-small-block" src="./images/Logo.png" alt="Logo">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-secondary text-light p-5 ">
+    <div class="container">
+      <div class = "d-md-flex justify-content-between align-items"> 
+          <h4>About Me:</h4>
+          <p>
+            My hobbies include playing chess, coding, playing guitar, and practicing jiu-jitsu<br>
+            I'm currently working on several projects that use React, NodeJS, ExpressJS, and .NET<br><br>
+            My favorite project is a flight simulator that will evetually use AI as an air traffic controller.<br>
+            The AI will keep track of weather, traffic, and other factors to make sure the flights are safe and efficient.<br><br>
+            I'm currently working for two companies, one is a software development company and the other is a game development company.<br>
+            I need to work on front-end since it's clearly my weakest skill, but I'm working on it.<br>
+          </p>
+      </div> 
+    </div>
+
+  </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>
