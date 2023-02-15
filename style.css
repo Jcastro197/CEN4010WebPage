@@ -1,6 +1,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(./images/giphy.gif);
+	/*background-image: url(./images/giphy.gif);*/
+	background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 	background-size: 250%;
 	background-repeat: no-repeat;
 	height: 100vh;
